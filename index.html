@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cetrak cetrek lampu</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+    integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+</head>
+<style>.button-error {
+  background: rgb(202, 60, 60);
+  color: beige;
+  /* this is a maroon */
+}
+
+</style>
+<body>
+  <div class="pure-g">
+  <!-- lampu 1 -->
+  <div class="pure-u-1 pure-u-md-1-3">
+    <img src="assets/off.gif" alt="" id="lampu1" />
+    <button onclick="saklar('on')" class="pure-button pure-button-primary">nyalakan lampu rumah saya</button>
+    <button onclick="saklar('off')" class="button-error pure-button">matikan lampu rumah saya</button>
+  </div>
+  <!-- lampu 2 -->
+  <div class="pure-u-1 pure-u-md-1-3">
+    <img src="assets/off.gif" alt="" id="lampu2" />
+    <button onclick="saklar('on')"  class="pure-button pure-button-primary">nyalakan lampu rumah saya</button>
+    <button onclick="saklar('off')" class="button-error pure-button">matikan lampu rumah saya</button>
+  </div>
+  <!-- lampu 3 -->
+  <div class="pure-u-1 pure-u-md-1-3" >
+    <img src="assets/off.gif" alt="" id="lampu3" />
+    <button onclick="saklar('on')" class="pure-button pure-button-primary">nyalakan lampu rumah saya</button>
+    <button onclick="saklar('off')" class="button-error pure-button">matikan lampu rumah saya</button>
+  </div>
+  </div>
+  <!--ini adalah script kita  -->
+  <script src="saklar.js" type="application/javascript"></script>
+  <!-- ini adalah script kita end -->
+</body>
+
+</html>
